@@ -1,6 +1,7 @@
 package lias.minecraft.mod.betterfood;
 
 import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
@@ -30,8 +31,11 @@ public class betterfood {
 	
 	//-------------------------------------------------------------------------------------------------
 	
-	public static Item testitem;
+	public static Item testItem;
 	public int testItemID = 15000;
+	
+	public static Block testBlock;
+	public int testBlockID = 180;
 	
 	//-------------------------------------------------------------------------------------------------
 	
@@ -43,7 +47,9 @@ public class betterfood {
 	@Init
 	public void init(FMLInitializationEvent event) {
 		
-		testitem = new itembeispielitem(testItemID).setCreativeTab(CreativeTabs.tabMaterials).setMaxStackSize(32);
+		testItem = new itembeispielitem(testItemID).setCreativeTab(CreativeTabs.tabMaterials).setMaxStackSize(32);
+		
+		testBlock = new blockbeispielblock(testBlockID, Material.rock).setCreativeTab(CreativeTabs.tabBlock).setLightValue(1.0F).setStepSound(Block.soundStoneFootstep).setUnlocalizedName("testBlock");
 		
 		registerItems();
 		initCraftingRecipes();
@@ -67,7 +73,7 @@ public class betterfood {
 		ItemStack Testname = new ItemStack(Block.planks);
 		
 		//Beispiel dazu ohne anordnung in der Workbench	
-		GameRegistry.addShapelessRecipe(new ItemStack(Block.dirt, 32), Testname);
+		GameRegistry.addShapelessRecipe(new ItemStack(Block.dirt, 32), Testname, Testname);
 		
 		//Beispiel mit anordnung in der Workbench
 		GameRegistry.addRecipe(new ItemStack(Item.pickaxeIron, 16), "X#X", "X#X", "X#X", '#', Testname);
@@ -86,19 +92,28 @@ public class betterfood {
 		GameRegistry.addRecipe(new ItemStack(Item.coal, 16), "X#X", "XCX", "X#X", '#', Block.sand, 'C', Block.cobblestone);
 		
 		//Rezept für das Beispielitem
-		GameRegistry.addShapelessRecipe(new ItemStack(testitem), Testname, Block.cobblestone);
+		GameRegistry.addShapelessRecipe(new ItemStack(testItem), Testname, Block.cobblestone);
+		//Rezept für das Beispielblock
+		GameRegistry.addShapelessRecipe(new ItemStack(testBlock), testItem, Block.dirt);
 		
 	}	
 	
 	private void registerItems(){
 		
-		GameRegistry.registerItem(testitem, "Testitem");
+		GameRegistry.registerItem(testItem, "Testitem");
+		
+	}
+	
+	private void registerBlocks(){
+		
+		GameRegistry.registerBlock(testBlock, "testBlock");
 		
 	}
 	
 	private void updateLanguage(){
 		
-		LanguageRegistry.addName(testitem, "Testitem");
+		LanguageRegistry.addName(testItem, "Testitem");
+		LanguageRegistry.addName(testBlock, "testBlock");
 		
 	}
 }
