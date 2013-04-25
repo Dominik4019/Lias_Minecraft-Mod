@@ -1,0 +1,6 @@
+INDEX VERSION 1.126+C:\Users\Dominik\Documents\GitHub\Lias_Minecraft-Mod\Code\eclipse\.metadata\.plugins\org.eclipse.jdt.core
+286606776.index
+2885049050.index
+4214182936.index
+2278688666.index
+3484492120.index
