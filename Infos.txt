@@ -1,0 +1,23 @@
+LIAS_Minecraft-Mod
+
+Name: 
+
+- Essen:
+
+- Bannanen (baum,etc.)
+- Mangos (baum,etc.)
+- Kokusnüsse (baum,etc,kokusmilch)
+- Hamburger (salat, mehl, tomaten, gurken, hackfleisch 
+- salat --> wie weizen
+- gurken --> wie melonen
+- chickenkrams --> messer
+- paprika
+- 
+
+- Geräte:
+
+- Fleischwolf
+- Herd (mit bratpfanne fürs hack)
+- Ofen (für Kuchen)
+- mühle
+
