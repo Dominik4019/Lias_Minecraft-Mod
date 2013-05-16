@@ -1,23 +1,50 @@
-LIAS_Minecraft-Mod
+DER Mod
 
-Name: 
+DER Mod fügt Gegenstände (Items) zu MineCraft hinzu, diese sind im folgenden festgehalten.
 
-- Essen:
 
-- Bannanen (baum,etc.)
-- Mangos (baum,etc.)
-- Kokusn�sse (baum,etc,kokusmilch)
-- Hamburger (salat, mehl, tomaten, gurken, hackfleisch 
-- salat --> wie weizen
-- gurken --> wie melonen
-- chickenkrams --> messer
-- paprika
-- 
 
-- Ger�te:
 
-- Fleischwolf
-- Herd (mit bratpfanne f�rs hack)
-- Ofen (f�r Kuchen)
-- m�hle
+Waffen:
+Streitaxt
+
+Essen:
+Mushroom-Stew mit Karotten
+Mushroom-Stew mit Kartoffeln
+Mushroom-Stew mit Karotten und Kartoffeln
+
+
+
+
+
+
+Rezepte:
+Streitaxt
+Mögliches Material für x: Eisen, Diamand
+h = holz
+x x x
+x h x
+  h  
+
+
+
+Mushroom-Stew mit Karotten
+Beliebig im Craftig-Feld eine Schüssel, zwei unterschiedliche Pilze, Eine Karotte.
+Man kann den stew anschließend in den Ofen tun, damit er mehr Hunger stillt.
+Kalt: 5 Hunger
+warm: 7 Hunger
+
+Mushroom-Stew mit Kartoffel
+Beliebig im Craftig-Feld eine Schüssel, zwei unterschiedliche Pilze, Eine Kartoffel.
+Man kann den stew anschließend in den Ofen tun, damit er mehr Hunger stillt.
+Kalt: 4 Hunger
+warm: 6 Hunger
+
+Mushroom-Stew mit Karotten und Kartoffeln
+Beliebig im Craftig-Feld eine Schüssel, zwei unterschiedliche Pilze, Eine Kartoffel, eine Karotte.
+Man kann den stew anschließend in den Ofen tun, damit er mehr Hunger stillt.
+Kalt: 7  Hunger
+warm: 10 Hunger
+
+
 
