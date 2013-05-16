@@ -47,5 +47,12 @@ Man kann den stew anschließend in den Ofen tun, damit er mehr Hunger stillt.
 Kalt: 7  Hunger
 warm: 10 Hunger
 
+Textures:
+-rohe Suppe
+-gekochte Suppe
+-beide Streitaxte
+
+
+
 
 
